@@ -9,6 +9,6 @@ def Newton(n,k):
         if k == 0 or k == n:
             return 1
         else:
-            return (factorial(n)/(factorial(k)*factorial(n-k)))
+            return int(factorial(n)/(factorial(k)*factorial(n-k)))
 
 print (Newton(n,k))
